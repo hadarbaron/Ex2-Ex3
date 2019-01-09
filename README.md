@@ -1,3 +1,7 @@
+# Ex2
+This project convert csv files to kml. The program will convert the CSV file to a layer of elements. A project will contain several layers that will eventually become KML.
+The program has a recursive function that receives the name of a folder and scans all of the CSV files that exist in it (there may be several more folders in its folders)
+The function will convert to the project and unify all CSV files into one KML.
 # Ex3
 Readme: The project is a game based on the Pacman game. The game is on the Ariel Universe map, its include function like Spreading fruit and packmans on the screen, reading and saving csv game file, we can run and stop the game on the screen and also see live the movement of the packmans on the screen. Structure: Main class Class gui (MainWindow1)- the class create the window of the map and responsible of all the thing that connect to the visual thing. Class map-this class responsible on the convert of the real gps point of the map in time that we read file to the right pixel on the screen and also convert the pixel that accepted from the mouse clicked on the screen to the right gps point. Class game- this class responsible on the building of the game that include all the packmans and the fruits and the path of the fruit that every packman eat. And more class that help to actualize this main class.
 
